@@ -1,0 +1,19 @@
+{
+    "name": "jorgeley/design-patterns_got",
+    "description": "A simple sample project using some Design Patterns",
+    "authors": [
+        {
+            "name": "Jorgeley",
+            "email": "jorgeley@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.6",
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns_GOT\\": ""
+        }
+    }
+}
