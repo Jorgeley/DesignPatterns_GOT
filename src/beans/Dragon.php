@@ -10,6 +10,16 @@ use DesignPatterns_GOT\src\factory\CharacterAbstract;
 
 class Dragon extends CharacterAbstract{
     
+    public function setFire(): string{
+        return "Setting fire everywhere! Aaaaaaarrrrrrrrrrrrrrrggggghhhhh!!!";
+    }
     
+    public function eatPeople(): string{
+        return "Eating everybody! Aaaaaaarrrrrrrrrrrrrrrggggghhhhh!!!";
+    }
+    
+    public function smashAndBeat(): string{
+        return "Smashing and beating! Aaaaaaarrrrrrrrrrrrrrrggggghhhhh!!!";
+    }
     
 }

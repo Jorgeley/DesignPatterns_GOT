@@ -7,6 +7,6 @@ namespace DesignPatterns_GOT\src\factory;
  */
 interface CharacterInterface{
     
-    public function getName():string;
+    public function getName(): string;
     
 }
