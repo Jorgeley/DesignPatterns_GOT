@@ -5,8 +5,8 @@
  * @author Jorgeley <jorgeley@gmail.com>
  */
 
-namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\CharacterAbstract;
+namespace DesignPatterns_GOT\src\beans;
+use DesignPatterns_GOT\src\factory\CharacterAbstract;
 
 class Giant extends CharacterAbstract{
     

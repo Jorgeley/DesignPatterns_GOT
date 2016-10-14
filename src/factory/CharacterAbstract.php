@@ -5,8 +5,8 @@
  * @author Jorgeley <jorgeley@gmail.com>
  */
 
-namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\CharacterInterface;
+namespace DesignPatterns_GOT\src\factory;
+use DesignPatterns_GOT\src\factory\CharacterInterface;
 
 abstract class CharacterAbstract implements CharacterInterface{
     protected $name;
@@ -15,9 +15,6 @@ abstract class CharacterAbstract implements CharacterInterface{
         $this->name = $name;
     }
     
-    /**
-     * @Override
-     */
     public function getName(): string{
         return $this->name;
     }

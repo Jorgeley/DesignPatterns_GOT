@@ -5,8 +5,9 @@
  * @author Jorgeley <jorgeley@gmail.com>
  */
 
-namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\{CharacterInterface, Person, Warg, Withc, Dragon, Giant, WhiteWalker};
+namespace DesignPatterns_GOT\src\factory;
+use DesignPatterns_GOT\src\beans\{Person, Warg, Witch, Dragon, Giant, WhiteWalker};
+use DesignPatterns_GOT\src\factory\CharacterInterface;
 use Exception;
 
 class CharacterFactory{
