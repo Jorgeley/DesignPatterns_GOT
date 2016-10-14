@@ -6,9 +6,9 @@
  */
 
 namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\Character;
+use DesignPatterns_GOT\src\CharacterAbstract;
 
-class WhiteWalker implements Character{
+class WhiteWalker extends CharacterAbstract{
     
     
     

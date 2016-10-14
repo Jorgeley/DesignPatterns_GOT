@@ -6,9 +6,9 @@
  */
 
 namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\Character;
+use DesignPatterns_GOT\src\CharacterAbstract;
 
-class Warg implements Character{
+class Warg extends CharacterAbstract{
     
     
     

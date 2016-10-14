@@ -6,9 +6,9 @@
  */
 
 namespace DesignPatterns_GOT\src;
-use DesignPatterns_GOT\src\Character;
+use DesignPatterns_GOT\src\CharacterAbstract;
 
-class Dragon implements Character{
+class Dragon extends CharacterAbstract{
     
     
     
