@@ -22,7 +22,7 @@ class CharacterFactory{
      * @return CharacterInterface
      * @throws Exception
      */
-    public function getCharacter(string $race = "Person", string $name ):CharacterInterface{
+    public function getCharacter(string $name, string $race = "Person"):CharacterInterface{
         switch ($race){
             case self::VALID_RACES[0]:
                 $character = new Person($name);
